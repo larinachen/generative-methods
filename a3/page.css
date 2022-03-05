@@ -1,0 +1,35 @@
+
+
+canvas {
+	/*border: 20px solid hsla(220, 100%, 90%, 1);*/
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5), 0px 0px 0px 10px hsla(220, 100%, 90%, 1);
+	
+}
+
+header{
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+	width: 100%;
+	padding: 10px;
+	margin-top: 0px;
+	margin-left: 40px;
+	text-align: center;
+}
+
+body{
+	display: flex;
+	height: 100vh;
+	font-family: sans-serif;
+	align-items: center;
+	background-image: linear-gradient(rgb(162, 205, 240), rgb(248, 167, 208));
+}
+
+#main{
+	width: 80%;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+#navigation{
+	margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+/* Background pattern from Toptal Subtle Patterns */
+body {
+    background-color: hsla(190, 100%, 20%, 1);
+  }
+  
+
+#title{
+    color: blanchedalmond;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+  
+  h1, h2, h3 {
+      /*font-family: 'Lobster', cursive;*/
+      font-family: sans-serif;
+      color: hotpink;
+  }
+  
+  #main {
+      padding: 20px;
+      /* Make this n more than 500px wide, and center it horizontally */
+      margin: 0px auto;
+      max-width: 1200px;
+      box-shadow: 1px 2px 5px hsla(0, 0, 0, .5);
+  
+  
+      background-color: white;
+      border-radius: 10px;
+      
+      text-align: center;
+
+      margin-top: 40px;
+  }
+  
+  
+  .swatch {
+      /*background-color: hsl(300, 70%, 80%);
+      border: 2px solid hsl(300, 100%, 50%);
+      color: hsl(300, 100%, 30%);*/
+      display: inline-block;
+      padding: 3px;
+      margin: 30px;
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, .5);
+      max-width: 500px;
+  }

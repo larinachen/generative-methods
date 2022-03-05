@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+
+	
+	<title>Larina Chen - Particles</title>
+	
+	<link rel="stylesheet" href="page.css">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Comfortaa:wght@700&family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+
+
+	<!-- P5 Loaded from a CDN -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script> -->
+
+	<!-- Or P5 loaded locally -->
+	<script src="../../../shared/p5.min.js"></script>
+
+	<script src="utilities.js"></script>
+	<script src="vector.js"></script>
+	<script src="curve.js"></script>
+	<script src="map.js"></script>
+	
+	<!--  -->
+
+	<script src="particles/basic-particles.js"></script>
+	<script src="particles/wind-particles.js"></script>
+	<script src="particles/portrait-particles.js"></script>
+	<script src="particles/spring-particles.js"></script>
+	<script src="particles/braitenberg-particles.js"></script>
+	<script src="particles/boids-particles.js"></script>
+	<!-- Add more here? -->
+	
+
+	<!-- My app's code goes last, 
+	because it needs to refer to things in the previous JS files -->
+	<script src="app.js"></script>
+
+
+
+</head>
+<body>
+
+	<header>
+		<div class="title"></div>
+		<div class="controls">
+			<!-- navigation things -->
+		</div>
+	</header>
+
+
+	<div id="main">
+		<div id="main-column">
+			<h1>Cat vs Mice</h1>
+			<p>A4: an experiment with particle swarms</p>
+			<div id="p5-holder">
+				<!-- Processing gets installed here -->
+			</div>
+
+			<div id="control-panel">
+				Debug: <select id="active-system" ></select>
+				<div id="sliders">
+
+				</div>
+			</div>
+			<div id="map-holder">
+
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

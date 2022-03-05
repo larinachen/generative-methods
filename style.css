@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right:40px;
+    margin-bottom: 0px;
+}
+    #main img {
+        width: 500px;
+        height: 650px;
+        z-index: 1;
+        margin-left: 30px;
+        margin-top: 5px;
+        border-radius: 25px;
+    }
+
+    #main h1{
+        font-size: 100px;
+        z-index: 2;
+        position: absolute;
+        top: 10px;
+        right: 100px;
+        margin: auto;
+        padding: 5px;
+        text-shadow: thistle 10px 6px;
+    }
+
+
+#assignments {
+    float: right;
+    margin-top: 100px;
+    margin-right: 350px;
+}
+
+#assignments h6 {
+    font-size: 25px;
+    margin: 15px;
+    color: black;
+}
+
+button {
+    position: absolute;
+    float: left;
+    top: 60px;
+    left: 60px;
+    border-radius: 5px;
+}
